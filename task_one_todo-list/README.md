@@ -8,7 +8,6 @@ Delete tasks
 See a message when there are no tasks
 The design is clean and modern, perfect for beginner web development projects.
 
-📸 Screenshots
 🏠 Home Page (Initial View)
 ![Screenshot](screenshots/notasks.png)
 When you first load the app, you’ll see an input field and “Add Task” button, along with a message:
@@ -18,10 +17,9 @@ When you first load the app, you’ll see an input field and “Add Task” butt
 Add Task
 ![screenshot](screenshots/add-tasks.png)
 Type a task in the input field and click the “Add Task” button. The task appears with:
-
-A checkbox to mark as completed
-An Edit button to modify the task
-A Delete button to remove it
+    ✅ A checkbox to mark it as completed
+    ✏️ An Edit button
+    🗑️ A Delete button
 
 ✅ Mark Task as Completed
 Completed Task
