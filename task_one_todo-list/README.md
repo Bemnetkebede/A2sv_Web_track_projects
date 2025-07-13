@@ -52,7 +52,7 @@ When all tasks are deleted, the “No tasks yet” message will reappear automat
         * [Optional] A local server like Live Server for smoother experience
     📦 Run Locally
        1, Clone this repository or download the ZIP:
-          https://github.com/Bemnetkebede/A2sv_Web_track_projects
+          https://github.com/Bemnetkebede/A2sv_Web_track_projects/task_one_todo-list
        2 , Navigate to the project directory:
            cd task_one_todo-list
        3, Open index.html in your browser OR Use a local server like Live Server (VS Code extension) for best experience.
