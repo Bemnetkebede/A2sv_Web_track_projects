@@ -10,13 +10,13 @@ The design is clean and modern, perfect for beginner web development projects.
 
 📸 Screenshots
 🏠 Home Page (Initial View)
-![Screenshot](screenshhots/notasks.png)
+![Screenshot](../screenshots/notasks.png)
 When you first load the app, you’ll see an input field and “Add Task” button, along with a message:
 “📝 No tasks yet. Add something!”
 
 ➕ Adding a Task
 Add Task
-![screenshot](screenshhots/add-tasks.png)
+![screenshot](screenshots/add-tasks.png)
 Type a task in the input field and click the “Add Task” button. The task appears with:
 
 A checkbox to mark as completed
@@ -25,17 +25,17 @@ A Delete button to remove it
 
 ✅ Mark Task as Completed
 Completed Task
-![screenshot](screenshhots/mark-done.png)
+![screenshot](screenshots/mark-done.png)
 Tick the checkbox to strike through the task and mark it as complete.
 
 📝 Editing a Task
 Edit Task
-![screenshot](screenshhots/edit-modal.png)
+![screenshot](screenshots/edit-modal.png)
 Click the Edit button to convert the task into a text box, modify it, then click Save.
 
 ❌ Deleting a Task
 Delete Task
-![screenshot](screenshhots/delete-tasks.png)
+![screenshot](screenshots/delete-tasks.png)
 Click Delete to remove the task from the list.
 When all tasks are deleted, the “No tasks yet” message will reappear automatically.
 
