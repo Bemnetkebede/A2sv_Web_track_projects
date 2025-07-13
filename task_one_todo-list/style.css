@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+}
+#h2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:70px;
+    font-size:34px;
+}
+#add{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:20px;
+}
+#input_{
+    width:350px;
+    height:29px;
+    border-radius:5px;
+    padding:5px;
+    padding-left:8px;
+}
+#add_button{
+    height:42px;
+    width:120px;
+    border-radius:5px;
+    padding:5px;
+    padding-left:8px;
+}
+#add_button:hover{
+    background:black;
+    color:white;
+}
+.task-list{
+    font-size:20px;
+    margin-left:400px;
+    margin-bottom:100px;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.task-checkbox {
+    width: 12px;       
+    height: 12px;
+}
+
+
+.list-Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+
+}
+
+.task-text.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.task-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.task-right button {
+    margin-left: 5px;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.deleteBtn {
+    background-color: #911111ff; 
+}
+
+.editBtn{
+    background-color: #136015ff;
+}
+
+
+.task-right button:hover {
+    background-color: #ccc;
+} 
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.modal.hidden {
+    display: none;
+}
+
+#editInput{
+    width:300px;
+    height:25px;
+}
+.two_button{
+    display:flex
+    gap:25;
+    /* margin-left: 40px; */
+}
+.ed{
+    display:flex;
+    justify-content:center;
+}
+#saveEdit{
+    width:150px;
+    height:40px;
+    background: green;
+    border-radius:5px;
+}
+
+#cancelEdit{
+    width:150px;
+    height:40px;
+    border-color: black;
+    border-radius: 5px;
+}
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.empty-message {
+    display:flex;
+    justify-content: center;
+    margin-top:-30px;
+    font-style: italic;
+}
+
