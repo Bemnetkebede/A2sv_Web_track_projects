@@ -10,7 +10,7 @@ The design is clean and modern, perfect for beginner web development projects.
 
 📸 Screenshots
 🏠 Home Page (Initial View)
-![Screenshot](../screenshots/notasks.png)
+![Screenshot](screenshots/notasks.png)
 When you first load the app, you’ll see an input field and “Add Task” button, along with a message:
 “📝 No tasks yet. Add something!”
 
